@@ -1,0 +1,94 @@
+/* Reset and Box-sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+#container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: darkseagreen;
+    border: 2px solid #555;
+}
+
+/* Header */
+header > h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #2f4f4f;
+    color: white;
+    border-bottom: 4px solid #333;
+}
+
+/* Navigation Sidebar */
+.Moonlight {
+    float: left;
+    width: 250px;
+    background-color: antiquewhite;
+    padding: 15px;
+    border-right: 2px solid #888;
+}
+
+.Moonlight ul {
+    margin-top: 10px;
+}
+
+.Moonlight ul li {
+    margin: 5px 0;
+    color: #333;
+}
+
+/* Main Content */
+#main {
+    margin-left: 270px;
+    padding: 20px;
+    background-color: #fdf5e6;
+}
+
+/* Images */
+.album-gallery img {
+    width: 230px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    padding: 5px;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-top: 4px solid #444;
+}
+
+/* CHILD SELECTOR: Style only direct p children of main */
+#main > p {
+    font-style: italic;
+    color: darkblue;
+}
+
+/* DESCENDANT SELECTOR: Style all strong tags inside main */
+#main strong {
+    color: crimson;
+}
+
+/* VISIBILITY & DISPLAY DEMO */
+.hidden-box {
+    visibility: hidden;
+    background-color: lightgray;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px dashed #aaa;
+}
+
+.display-none-box {
+    display: none;
+    background-color: lightgray;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px dashed #aaa;
+}
